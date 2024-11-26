@@ -316,14 +316,14 @@
                             <!-- Spacer -->
                             <td colspan="2" style="height: 20px;"></td>
                         </tr>
-                        <tr>
+                        <tr x-show="banner_img">
                             <!-- Banner Section -->
                             <td colspan="2" style="text-align: center; padding: 20px 0;">
                                 <a href="https://link-to-advertisement.com" :href="`https://${banner}`" target="_blank">
                                     <img src="https://website.uat.buckhill.com.hr/assets/0-signature/placeholder-banner.jpg"
                                         :src="banner_img"
                                         alt="Banner"
-                                        style="width: 600px; height: 150px; object-fit: contain; display: block;">
+                                        style="width: 600px; display: block;">
                                 </a>
                             </td>
                         </tr>
